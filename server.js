@@ -4,7 +4,7 @@ const cors = require('cors');
 const ImageKit = require('imagekit');
 const multer = require('multer');
 const { Clerk, ClerkExpressRequireAuth } = require('@clerk/clerk-sdk-node');
-require('dotenv').config();
+
 
 const app = express();
 app.use(cors());
